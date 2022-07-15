@@ -1,0 +1,170 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+hr {
+  color: #B2C8DF;
+  width: 5rem;
+  border-style: dotted none none none;
+  border-width: 5px;
+  margin: 5rem auto 5rem auto;
+}
+
+p {
+  line-height: 2;
+}
+
+/******************* headings ******************/
+h1{
+  margin: 0 auto 0 auto;
+  font-family: "Ephesis", sans-serif;
+  color: #90AACB;
+}
+
+h2{
+  font-family: "Rajdhani", sans-serif;
+  margin: 10px;
+  font-size: 2.5rem;
+  color: #6E85B7;
+  font-weight: normal;
+}
+
+h3{
+  margin: 10px;
+  font-size: 1.5rem;
+  font-family: "Rajdhani", sans-serif;
+  color: #B2C8DF;
+}
+
+a {
+  font-family:"Quicksand", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+/******************* fonts ******************/
+.main-font{
+  font-size: 6rem;
+}
+
+.highlight-font {
+  font-family: "Quicksand", sans-serif;
+}
+
+/******************* top ******************/
+.top-container {
+  background-color: #F9D5A7;
+  position: relative;
+  padding-top: 50px;
+}
+
+.sunrise {
+  position: relative;
+  bottom: -4px;
+  padding: 0;
+}
+
+.top-seagull {
+  position: relative;
+  left: 300px;
+  height: 100px;
+  width: auto;
+}
+
+.bottom-seagull {
+  position: relative;
+  right: 300px;
+  height: 100px;
+  width: auto;
+}
+
+/******************* middle ******************/
+.middle-container {
+  background-color: #FEF1E6;
+}
+
+.rolji {
+  margin-top: 50px;
+  width: 150px;
+  height: auto;
+}
+
+.first-skill {
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.first-seagull {
+  margin-top: 0;
+  width: 25%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.second-skill {
+  width: 40%;
+  height: auto;
+  margin: 100px auto;
+  text-align: right;
+  line-height: 2;
+}
+
+.second-seagull {
+  margin-top: 0;
+  width: 25%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-button {
+  margin: 1rem auto 5rem auto;
+}
+
+.contact-button {
+	background-color:#7892c2;
+	border-radius:28px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Quicksand";
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #283966;
+}
+.contact-button:hover {
+	background-color:#476e9e;
+}
+.contact-button:active {
+	position:relative;
+	top:1px;
+}
+
+
+/******************* bottom ******************/
+.bottom-container {
+  background-color: #FFB085;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.footer-link {
+  color: #476e9e;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  padding: 20px 0 10px 0;
+}
